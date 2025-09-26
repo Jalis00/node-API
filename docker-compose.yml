@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  node-api:
+    build: .
+    ports:
+      - "5080:3000"
