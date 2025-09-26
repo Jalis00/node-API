@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/node-api-copy:latest
+          tags: jalis00/node-api-copy:latest
